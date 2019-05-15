@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<form name="Registration">
+
+    <div>
+        <table>
+    </div>
+    <div>
+
+        <tr>
+            <td>Name :</td>
+            <td><input ng-model="details.name" type="text" name="Fname" value="" /></td>
+        </tr>
+
+        <tr>
+            <td>Age :</td>
+            <td><input ng-model="details.age" type='number'> </td> </tr> <tr>
+            <td>Gender :</td>
+
+            <td>
+                <select name="Gender" ng-model="details.gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">other</option>
+            </td>
+        <tr>
+            <td>Email id :</td>
+            <td><input ng-model="details.email" type="text" value="" /></td>
+        </tr>
+        <td>DOB:</td>
+        <td><input ng-model="details.dob" type='date' name='DOB' value={{details.dob}}></td>
+
+
+
+    </div>
+    <div>
+        <tr>
+            <td>Address:</td>
+            <td><textarea ng-model="details.Address" rows="5" cols='40'></textarea></td>
+        </tr>
+    </div>
+    <tr><td></td>
+        <td><button ng-click="saveData()">Save</button></td>
+        <td><button ng-click="deleteData()">Delete</button></td>
+        <td><button ng-click="cancelData()">Cancel</button></td>
+    </tr>

@@ -1,0 +1,60 @@
+{
+	"patients": [{
+		"name": "John",
+		"id": 1,
+		
+			"dob": "12/12/1980",
+			"gender": "Male",
+			"age": 25,
+			"email": "john@gmail.com",
+			"Address": "40690 lake plaza, Richmond,va,21023"
+			
+		
+	},{
+			"name": "Lannister",
+			"id": 2,
+				"dob": "12/12/1960",
+				"gender": "Male",
+				"age": 25,
+				"email": "lannister@gmail.com",
+				"Address": "765 cox road , Irving, Tx-75038"
+	},{
+
+		"name": "Baratheon",
+			"id": 3,
+				"dob": "01/15/1960",
+				"gender": "Male",
+				"age": 25,
+				"email": "baratheon@gmail.com",
+				"Address": "1500 harwin terrace,glen side,Virginia "
+	},
+	{
+		"name": "Stark",
+		"id": 4,
+			"dob": "12/12/1966",
+			"gender": "FeMale",
+			"age": 39,
+			"email": "stark@gmail.com",
+			"Address": "9018 borad street  , Irving, Tx-76528"
+	},
+	
+	{
+		"name": "Smith",
+		"id": 5,
+			"dob": "12/12/1970",
+			"gender": "Male",
+			"age": 25,
+			"email": "smith@gmail.com",
+			"Address": "700 hidden ridge, Irving, Tx-75038"
+			
+		
+	},{
+		"name": "Targerian",
+			"id": 6,
+				"dob": "05/25/1980",
+				"gender": "FeMale",
+				"age": 25,
+				"email": "targerian@gmail.com",
+				"Address": "765 cox road ,sunnyvalle, CA-75038"
+	}]
+}

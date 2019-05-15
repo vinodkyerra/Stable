@@ -1,0 +1,11 @@
+<p>This will help you to navigate to Edit Page.</p>
+<h1> Patient List</h1>
+<ul ng-repeat="patients in patientList">
+        <ul ng-repeat="patient in patients">
+
+    <li>
+        <a href="" ng-click="getDetails(patient)">{{patient.name}}</a>
+    </li>
+    </ul>
+    
+</ul>
